@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 900px;
+    
+}
+.header{
+    display:flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+.header h1 {
+    flex-grow: 4;
+}
+
+.header button {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+.formContainer {
+   
+    padding: 1rem;
+    
+}
+
+.bookContainer {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 230px;
+    gap: 2rem;
+   
+}
+
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border: 1px solid black;
+    background: rgb(20,60,200, 0.2)
+}
+
+.imgBtn {
+    align-self: end;
+}
+.bookCard img {
+    
+   
+    width: 2rem;
+    
+}
+
+

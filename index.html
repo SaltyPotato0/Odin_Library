@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <dialog class="formContainer">
+        <form method="dialog"  id="form">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div>
+                <label for="pages">Number of Pages:</label>
+                <input type="number" id="pages" name="pages" required>
+            </div>
+            
+                <fieldset>
+                    <div>
+                        <legend>Did you read it?</legend>
+                        <label for="yes">Yes
+                            <input type="radio" value="Read" id="yes" name="ReadStatus">
+                        </label>
+                        <label for="no">No
+                             <input type="radio" value="Not read" id="no" name="ReadStatus" checked>
+                        </label>
+                    </div>    
+                </fieldset>
+
+                <div>
+                    <button type="submit">Add Book</button>
+                    <button type="button" class="cancle" >Close</button>
+                </div>
+           
+        </form>
+    </dialog>
+    <div class="container">
+        <div class="header">
+            <h1>The Book Library</h1>
+            <button class="newBookbtn">New Book</button>
+        </div>
+        <div class="bookContainer">   
+            <!--
+            <div class="bookCard">
+                <h3 class="title"> Lord of The Rings</h3>
+                <p>Author: <span class="author">J.R.R Tolkin</span></p>
+                <p>Pages: <span class="pages">1444</span></p>
+                <p>Read status: <span class="ReadStatus">No</span></p>
+                <img src="icons/delete.svg" alt="">
+            </div>
+            <div class="bookCard">
+                <h3 class="title"> Harry Potter</h3>
+                <p>Author: <span class="author">J.K. Rowling</span></p>
+                <p>Pages: <span class="pages">652</span></p>
+                <p>Read status: <span class="ReadStatus">No</span></p>
+                <img src="icons/delete.svg" alt="">
+            </div>
+            <div class="bookCard">
+                <h3 class="title"> Game of thrones</h3>
+                <p>Author: <span class="author">G.R.R Marthin</span></p>
+                <p>Pages: <span class="pages">2506</span></p>
+                <p>Read status: <span class="ReadStatus">No</span></p>
+                <img src="icons/delete.svg" alt="">
+            </div>
+            -->
+        </div>
+    </div>
+
+    <script src="jsjsjs.js"></script>
+</body>
+</html>
